@@ -8,6 +8,9 @@ import retrofit2.http.GET
  * APIService interface will include the needed endpoints
  */
 interface APIService{
+    /**
+     * Get the characters
+     */
     @GET("character/")
     fun getCharacters(): Observable<Characters>
 }
