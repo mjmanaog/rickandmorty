@@ -128,9 +128,9 @@ fun CharacterContent(name: String, status: String, alignment: Alignment.Horizont
         Text(
             text = status,
             style = MaterialTheme.typography.body2,
-            color = if (status == "Dead") {
+            color = if (status == "Alive") {
                 MaterialTheme.colors.lightGreen
-            } else if (status == "Alive") {
+            } else if (status == "Dead") {
                 MaterialTheme.colors.lightRed
             } else {
                 MaterialTheme.colors.primary
