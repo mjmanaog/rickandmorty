@@ -7,14 +7,14 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-        primary = purple200,
-        primaryVariant = purple700,
+        primary = dark200,
+        primaryVariant = dark700,
         secondary = teal200
 )
 
 private val LightColorPalette = lightColors(
-        primary = purple500,
-        primaryVariant = purple700,
+        primary = dark500,
+        primaryVariant = dark700,
         secondary = teal200
 
         /* Other default colors to override
@@ -30,7 +30,7 @@ private val LightColorPalette = lightColors(
 @Composable
 fun RickAndMortyTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
     val colors = if (darkTheme) {
-        DarkColorPalette
+        LightColorPalette
     } else {
         LightColorPalette
     }
