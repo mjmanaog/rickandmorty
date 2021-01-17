@@ -1,3 +1,4 @@
+### STILL UNDER DEVELOPMENT (some features were not yet efficiently implemented) 
 # Rick and Morty Characters
 Jetpack Compose was released recently, might as well explore it. I made this simple Rick and Morty character displaying app using this open [API](https://rickandmortyapi.com/documentation/#get-all-characters) .
 
